@@ -9,7 +9,7 @@ class Counters extends Component {
           onClick={this.props.onReset}
           className="btn btn-primary btn-sm m-2"
         >
-          Reset
+          Reset it
         </button>
         {this.props.counters.map(counter => (
           <Counter
